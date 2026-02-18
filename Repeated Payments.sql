@@ -1,6 +1,6 @@
 # 💳 Stripe SQL Interview Question (Hard) – Repeated Payments Link(https://datalemur.com/questions/repeated-payments)
 ## 📌 Problem Statement
-Sometimes payment transactions are repeated by accident. This could be due to:
+/* Sometimes payment transactions are repeated by accident. This could be due to:
 - User error  
 - API failure  
 - Retry errors causing a credit card to be charged twice  
@@ -51,7 +51,7 @@ Transactions 4 and 6 have **different amounts**, so they do not qualify either.
 ## 🎯 Task
 Write a SQL query to return the count of repeated payments.
   
-## My Query
+## My Query */
 with trans as (
   select 
       transaction_id,
