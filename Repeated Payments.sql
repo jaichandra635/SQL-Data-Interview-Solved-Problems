@@ -1,4 +1,4 @@
-# 💳 Stripe SQL Interview Question (Hard) – Repeated Payments
+# 💳 Stripe SQL Interview Question (Hard) – Repeated Payments Link(https://datalemur.com/questions/repeated-payments)
 ## 📌 Problem Statement
 Sometimes payment transactions are repeated by accident. This could be due to:
 - User error  
