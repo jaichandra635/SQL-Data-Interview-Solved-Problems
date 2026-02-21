@@ -1,0 +1,7 @@
+select 
+distinct 
+e.name
+from employees e
+join employees m
+on e.emp_id = m.mgr_id
+where e.salary > m.salary
